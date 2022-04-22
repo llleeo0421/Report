@@ -1,3 +1,12 @@
+## **Information**
+- Writer : Rocket Ride([@llleeo0421](github.com/llleeo0421))
+- github : [@August-Leo-0805](github.com/August-Leo-0805)
+- SNS
+- Blog
+- Insta
+- Twitter
+- Youtube
+
 ## **변수**
 - 변수명 만들기
 	1. 시작은 문자(English), _(밑줄)
