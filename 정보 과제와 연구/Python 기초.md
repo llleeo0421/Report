@@ -105,7 +105,7 @@ while i<11 :
 ```python
 from turtle import*
 forward ()
-left() right()
+left()
 ```
 ```python
 from turtle import*
@@ -159,3 +159,8 @@ for i in range(500) :
 ```
 
 ## 도형 2
+```python
+from turtle import*
+forward ()
+right()
+```
