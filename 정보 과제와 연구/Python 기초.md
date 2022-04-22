@@ -61,7 +61,7 @@ i=i+1
 - if 문
 ```python
 if 
-elif
+elif '''갯수 제한 ❌️'''
 else
 ```
 ```python
@@ -75,7 +75,7 @@ else :
 ```
 - for 문
 ```python
-for i range () :
+for i in range () :
 ```
 ```python
 sum=0
