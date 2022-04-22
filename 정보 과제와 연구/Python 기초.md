@@ -1,22 +1,23 @@
 ## **변수**
+- 변수형
 ```python
 int a=7 '''정수'''
 float b=4.21 '''실수''' 
 list d=[728, 501, 917, 126, 404, 909, 618] '''배열'''
-str c='o'  '''문자 1'''
-str ohmygirl='omg'  '''문자 2'''
+str omg='OH MY GIRL' '''문자 1'''
+str ohmygirl="omg" '''문자 2'''
 bool t=true  '''참'''
 bool f=false '''거짓'''
 ```
 - 변수명 만들기
-	1. 시작은 문자(영어), _(밑줄)
+	1. 시작은 문자(English), _(밑줄)
 	2. 대소문자 구분
 	3. 예약어 X
-		- 예약어 : if, else, while...(33개 정도)
-	4. 공백, -(대시)사용불가
+		- 예약어 : if, else, while...
+	4. -(대시), 공백 사용불가
 
 ## **출력**
-``` python
+```python
 print ('이름') '''문자'''
 print (a) '''변수 1개'''
 print (a, b)  '''변수 여러개'''
@@ -24,7 +25,7 @@ print ('이름은', a) '''변수, 문자 동시 출력'''
 ```
 ## **입력**
 ```python
-a= input(안내 문구) '''문자형 입력'''
+a= input('안내 문구') '''문자형 입력'''
 a= float(input()) '''원하는 형태의 변수 입력'''
 ```
 ## **연산자**
@@ -53,7 +54,7 @@ a or b '''하나만 만족'''
 
 - 대입연산
 ```python
-int i=i+1
+i=i+1
 ```
 
 ## 조건문
@@ -65,7 +66,6 @@ else
 ```
 ```python
 n=int(input())
-
 if n%3==0:
   print('나머지 : 없음')
 elif n%3==1:
@@ -101,7 +101,7 @@ while i<11 :
   i+=1
 	print(sum)
 ```
-## 도형
+## 도형 1
 ```python
 from turtle import*
 forward ()
@@ -157,3 +157,5 @@ for i in range(500) :
   fd(i*4)
   lt(121)
 ```
+
+## 도형 2
